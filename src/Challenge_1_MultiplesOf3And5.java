@@ -29,10 +29,12 @@ public class Challenge_1_MultiplesOf3And5
                 }
                 else
                 {
+                    //Number is not a multiple of 3 or 5
                     System.out.println(i + " is not a multiple of 3 or 5");
                 }
             }
         }
+        //Print Total to console
         System.out.println("Sum of multiples of 3 and 5 below 1000 is: " + total);
     }
 }
